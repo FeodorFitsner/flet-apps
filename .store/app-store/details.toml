@@ -1,0 +1,9 @@
+# App Store app details (Flet Studio).
+default_language = "en-US"
+primary_category = "GAMES"
+copyright = "2026 Appveyor Systems Inc."
+review_first_name = "Feodor"
+review_last_name = "Fitsner"
+review_email = "feodor@appveyor.com"
+review_phone = "778 996-1729"
+review_sign_in = "no"

@@ -1,0 +1,1 @@
+Added a light and dark theme toggle in the top-right corner.
