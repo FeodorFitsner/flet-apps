@@ -1,0 +1,65 @@
+[project]
+name = "reflex-arcade"
+version = "1.1.1"
+description = "A quick reaction-time game to challenge and improve your reflexes."
+requires-python = ">=3.12"
+authors = [
+    { name = "Feodor Fitsner", email = "feodor@appveyor.com" }
+]
+dependencies = [
+    "flet"
+]
+
+[dependency-groups]
+dev = [
+    "flet-cli",
+    "flet-desktop",
+    "flet-web"
+]
+
+[tool.flet.metadata]
+title = "Reflex Arcade"
+
+[tool.flet.web]
+pwa_background_color = "#0F0101"
+dependencies = []
+
+[tool.flet.web.compile]
+packages = false
+
+[tool.flet.web.splash]
+color = "#A0B042"
+
+[tool.flet.windows.boot_screen.flet]
+fade_out_duration = 33
+spinner_size = 30
+startup_message = "Hold on..."
+
+[tool.flet.android]
+bundle_id = "dev.flet.reflex_arcade"
+target_arch = ["arm64-v8a"]
+
+[tool.flet.android.splash]
+color = "#C5FFC2"
+
+[tool.flet.ios]
+
+[tool.flet.ios.boot_screen.flet]
+spinner_size = 30
+startup_message = "Starting..."
+
+[tool.flet.macos]
+icon_background = "#117BB3"
+
+[tool.flet]
+icon_background = "#263238"
+org = "dev.flet"
+company = "Feodor Fitsner"
+copyright = "Copyright (C) 2026 by Feodor Fitsner"
+
+[tool.flet.app]
+path = "src"
+
+[tool.flet.splash]
+color = "#263238"
+dark_color = "#263238"

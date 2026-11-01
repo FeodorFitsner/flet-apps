@@ -1,0 +1,14 @@
+Reflex Arcade is a quick reaction-time game to challenge your reflexes.
+
+Tap the play area to start a round. Wait for the signal to turn green, then tap as quickly as you can. Your reaction time appears in milliseconds. Tap too soon and it’s a false start—try again in a new round.
+
+Your latest result and best result for the current session stay on screen, so you can compare attempts as you play. The session best resets when you close the app.
+
+How to play:
+1. Tap the play area to begin.
+2. Wait for the green signal.
+3. Tap as soon as it appears.
+4. Check your latest time and session best.
+5. Start another round and try to improve your time.
+
+Choose a light or dark display theme with the toggle in the top-right corner. Reflex Arcade keeps the rules simple and each round quick.

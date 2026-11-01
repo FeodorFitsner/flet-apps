@@ -1,0 +1,18 @@
+Reflex Arcade turns a simple signal into a quick test of timing.
+
+Tap the play area to start a round. Wait through the short, randomized pause, then tap as soon as the panel turns green. Your reaction time appears in milliseconds.
+
+Tap before the green signal and it’s a false start. Try another round and see if you can react faster.
+
+Each session shows your latest result and your best time so far. The session best is temporary and resets when you close the app.
+
+Choose light or dark mode with the switch in the top-right corner.
+
+How to play
+1. Tap to start a round.
+2. Wait for the green signal.
+3. Tap as quickly as you can.
+4. Check your latest time and session best.
+5. Play another round.
+
+Simple controls, quick rounds, and clear results make Reflex Arcade easy to pick up whenever you have a moment.

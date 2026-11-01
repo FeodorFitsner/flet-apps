@@ -1,0 +1,13 @@
+Teste deine Reaktionsgeschwindigkeit in einem kurzen, leicht zugänglichen Spiel.
+
+Tippe, um eine Runde zu starten, und warte, bis das Signal grün wird. Tippe sofort darauf, um deine Reaktionszeit in Millisekunden zu sehen. Tippst du zu früh, zählt das als Fehlstart – versuch es einfach noch einmal.
+
+Reflex Arcade zeigt dein letztes Ergebnis und deinen Bestwert für die aktuelle Spielsitzung. Spiele mehrere Runden und versuche, deinen persönlichen Rekord zu verbessern. Die Regeln sind einfach und jede Runde ist kurz.
+
+So funktioniert’s:
+• Tippe, um eine Runde zu starten.
+• Warte auf das grüne Signal.
+• Tippe so schnell wie möglich.
+• Sieh dir dein Ergebnis und deinen Bestwert für die Sitzung an und starte die nächste Runde.
+
+Komm später wieder und teste erneut, wie schnell du reagierst.
