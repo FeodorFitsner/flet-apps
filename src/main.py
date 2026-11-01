@@ -7,8 +7,8 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Reflex Arcade"
-    page.theme_mode = ft.ThemeMode.DARK
-    page.bgcolor = ft.Colors.BLUE_GREY_900
+    page.theme_mode = ft.ThemeMode.LIGHT
+    page.bgcolor = ft.Colors.BLUE_GREY_50
     page.padding = 12
 
     mode = "idle"
@@ -24,8 +24,8 @@ def main(page: ft.Page):
         alignment=ft.Alignment.CENTER,
         content=prompt,
     )
-    best_value = ft.Text("—", size=16, weight=ft.FontWeight.BOLD, color=ft.Colors.CYAN_200)
-    last_value = ft.Text("—", size=16, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
+    best_value = ft.Text("—", size=16, weight=ft.FontWeight.BOLD, color=ft.Colors.CYAN_700)
+    last_value = ft.Text("—", size=16, weight=ft.FontWeight.BOLD, color=ft.Colors.BLUE_GREY_900)
 
     def set_zone(label: str, color: str):
         prompt.value = label
@@ -63,19 +63,19 @@ def main(page: ft.Page):
 
     tap_zone.on_click = tap
 
-    brand_name = ft.Text("REFLEX ARCADE", size=12, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
-    quick_test = ft.Text("QUICK TEST", size=10, color=ft.Colors.CYAN_200)
-    heading = ft.Text("Beat the signal.", size=23, weight=ft.FontWeight.BOLD, color=ft.Colors.WHITE)
-    subtitle = ft.Text("Wait for green, then tap as fast as you can.", size=13, color=ft.Colors.BLUE_GREY_100)
-    best_label = ft.Text("PERSONAL BEST", size=9, color=ft.Colors.BLUE_GREY_100)
-    last_label = ft.Text("LAST ROUND", size=9, color=ft.Colors.BLUE_GREY_100)
+    brand_name = ft.Text("REFLEX ARCADE", size=12, weight=ft.FontWeight.BOLD, color=ft.Colors.BLUE_GREY_900)
+    quick_test = ft.Text("QUICK TEST", size=10, color=ft.Colors.CYAN_700)
+    heading = ft.Text("Beat the signal.", size=23, weight=ft.FontWeight.BOLD, color=ft.Colors.BLUE_GREY_900)
+    subtitle = ft.Text("Wait for green, then tap as fast as you can.", size=13, color=ft.Colors.BLUE_GREY_700)
+    best_label = ft.Text("PERSONAL BEST", size=9, color=ft.Colors.BLUE_GREY_700)
+    last_label = ft.Text("LAST ROUND", size=9, color=ft.Colors.BLUE_GREY_700)
 
     width = min(520, max(240, (page.width or 520) - 32))
     panel = ft.Container(
         width=width,
         padding=16,
-        bgcolor=ft.Colors.BLUE_GREY_800,
-        border=ft.Border.all(1, ft.Colors.BLUE_GREY_700),
+        bgcolor=ft.Colors.WHITE,
+        border=ft.Border.all(1, ft.Colors.BLUE_GREY_200),
         border_radius=22,
         content=ft.Column(
             tight=True,
@@ -111,9 +111,9 @@ def main(page: ft.Page):
         ),
     )
 
-    theme_label = ft.Text("DARK", size=11, weight=ft.FontWeight.BOLD, color=ft.Colors.CYAN_200)
+    theme_label = ft.Text("LIGHT", size=11, weight=ft.FontWeight.BOLD, color=ft.Colors.CYAN_700)
     theme_switch = ft.Switch(
-        value=True,
+        value=False,
         active_color=ft.Colors.CYAN_200,
         active_track_color=ft.Colors.BLUE_GREY_700,
     )
