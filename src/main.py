@@ -145,13 +145,16 @@ def main(page: ft.Page):
         controls=[ft.Row(tight=True, spacing=4, controls=[theme_label, theme_switch])],
     )
     page.add(
-        ft.Column(
+        ft.SafeArea(
             expand=True,
-            spacing=0,
-            controls=[
-                toolbar,
-                ft.Container(expand=True, alignment=ft.Alignment.CENTER, content=panel),
-            ],
+            content=ft.Column(
+                expand=True,
+                spacing=0,
+                controls=[
+                    toolbar,
+                    ft.Container(expand=True, alignment=ft.Alignment.CENTER, content=panel),
+                ],
+            ),
         )
     )
 
