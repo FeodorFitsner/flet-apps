@@ -27,9 +27,6 @@ dependencies = []
 [tool.flet.web.compile]
 packages = false
 
-[tool.flet.web.splash]
-color = "#A0B042"
-
 [tool.flet.windows.boot_screen.flet]
 fade_out_duration = 33
 spinner_size = 30
@@ -69,3 +66,4 @@ path = "src"
 [tool.flet.splash]
 color = "#263238"
 dark_color = "#263238"
+web = false
