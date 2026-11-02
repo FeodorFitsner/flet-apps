@@ -54,6 +54,9 @@ startup_message = "Starting..."
 [tool.flet.macos]
 icon_background = "#117BB3"
 
+[tool.flet.linux.boot_screen.flet]
+spinner_size = 30
+
 [tool.flet]
 icon_background = "#263238"
 org = "dev.flet"
