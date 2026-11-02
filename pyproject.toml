@@ -42,6 +42,9 @@ target_arch = ["arm64-v8a"]
 [tool.flet.android.splash]
 color = "#3690C1"
 
+[tool.flet.android.boot_screen.flet]
+spinner_size = 30
+
 [tool.flet.ios]
 
 [tool.flet.ios.boot_screen.flet]
