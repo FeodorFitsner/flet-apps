@@ -7,7 +7,7 @@ import flet as ft
 
 def main(page: ft.Page):
     page.title = "Reflex Arcade"
-    page.theme_mode = ft.ThemeMode.LIGHT
+    page.theme_mode = ft.ThemeMode.DARK
     page.bgcolor = ft.Colors.BLUE_GREY_50
     page.padding = 12
 
